@@ -1,0 +1,21 @@
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Une question ? </h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form action="http://formspree.io/you@email.com" method="post">
+          <input type="hidden" name="_language" value="fr" />
+          <input type="email" name="_replyto" placeholder="Votre email">
+          <textarea name="body" placeholder="Votre message"></textarea>
+          <input type="text" name="_gotcha" style="display:none" />
+          <input type="submit" value="Send" hint="Envoyer" class="contact-button">
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
