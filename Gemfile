@@ -1,6 +1,7 @@
 # If you do not have OpenSSL installed, update
 # the following line to use "http://" instead
 source 'https://rubygems.org'
+ruby '2.3.3'
 
 gem "middleman", "~> 3.4"
 
@@ -15,6 +16,12 @@ gem "tzinfo-data", platforms: [:mswin, :mingw]
 
 # Deploy to GitHub Pages
 gem 'middleman-deploy', '~> 1.0'
+
+#deploy on Heroku
+gem 'rake'
+gem 'puma'
+gem 'rack-contrib'
+
 
 # Assets
 gem 'jquery-middleman'
